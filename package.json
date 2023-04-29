@@ -1,7 +1,7 @@
 {
   "name": "@kleytonsolinho/eslint-config",
-  "version": "1.0.0",
-  "description": "Kleyton Solinho ESLint config",
+  "version": "1.1.0",
+  "description": "Kleyton Solinho ESLint and Prettier configs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,8 @@
     "url": "git+https://github.com/kleytonsolinho/eslint-config.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Kleyton Solinho",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kleytonsolinho/eslint-config/issues"
   },
