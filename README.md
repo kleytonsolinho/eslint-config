@@ -36,7 +36,7 @@ Add on package.json file the config:
 
 ```bash
 {
-  "prettier": "@azz/prettier-config"
+  "prettier": "@kleytonsolinho/config/prettier"
 }
 
 ```
