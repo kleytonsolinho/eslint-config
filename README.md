@@ -32,11 +32,11 @@ Or extending the config to node:
 }
 ```
 
-Add on package.json file the config:
+Create a .prettierrc file extending the config:
 
 ```bash
 {
-  "prettier": "@kleytonsolinho/config/prettier"
+  "extends": "@kleytonsolinho/config/prettier"
 }
 
 ```
