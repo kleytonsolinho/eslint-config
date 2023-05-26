@@ -13,14 +13,14 @@
 Install the dependencies
 
 ```bash
-npm i -D eslint @kleytonsolinho/eslint-config
+npm i eslint @kleytonsolinho/eslint-config -D
 ```
 
 Create a .eslintrc.json file extending the config to react:
 
 ```bash
 {
-  "extends": "@kleytonsolinho/config/eslint/react"
+  "extends": "@kleytonsolinho/eslint-config/react"
 }
 ```
 
@@ -28,16 +28,14 @@ Or extending the config to node:
 
 ```bash
 {
-  "extends": "@kleytonsolinho/config/eslint/node"
+  "extends": "@kleytonsolinho/eslint-config/node"
 }
 ```
 
-Create a .prettierrc file extending the config:
+Create a .prettierrc.js file extending the config:
 
 ```bash
-{
-  "extends": "@kleytonsolinho/config/prettier"
-}
+module.exports = require('@kleytonsolinho/eslint-config/prettier');
 
 ```
 
