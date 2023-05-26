@@ -1,6 +1,6 @@
 {
   "name": "@kleytonsolinho/eslint-config",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Kleyton Solinho ESLint and Prettier configs",
   "main": "index.js",
   "scripts": {
@@ -32,12 +32,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.6.2"
   },
-  "prettier": {
-    "name": "@kleytonsolinho/eslint-config",
-    "version": "1.2.0",
-    "main": "./prettier/index.js",
-    "prettier": "./prettier/index.js"
-  },
+  "prettier": "./prettier.js",
   "peerDependencies": {
     "eslint": "^7.23.0 || ^8.0.0",
     "typescript": ">=3.3.1"
